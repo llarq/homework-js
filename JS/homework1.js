@@ -17,44 +17,15 @@ console.log(myNumber);
 const myNull = null;
 console.log(myNull);
 
-const yourName = prompt("Введіть ваше ім’я");
-const userName = alert("Привіт " + yourName);
+const userName = prompt("Введіть ваше ім’я");
+const yourName = alert(userName);
+console.log(userName);
+console.log(typeof userName);
 
-const agreeMessage = confirm("Підтвердіть дію");
-if (agreeMessage === true) {
-    alert("Дякую за підтвердження!")
-}
-else {
-    alert("Дію відмінено!")
-};
+const userAnswer = confirm("Ви дійсно хочете покинути сторінку?");
+console.log(userAnswer);
 
-const warningMessage = alert("Дія небезпечна, потрібне підтвердження");
-const agreeWarning = confirm("Підтвердити дію");
-if (agreeWarning === true) {
-    alert("Дякую за підтвердження!")
- }
- else {
-     alert("Дію відмінено!")
- };
+const warning = alert("Увага! Дія може бути небезпечною.");
+const warningAnswer = confirm("Ви впевнені, що хочете продовжити?");
+console.log(warningAnswer);
 
-
-
-
-// let warningMessage = alert("Дія небезпечна, потрібне підтвердження");
-// warningMessage = confirm("Підтвердіть дію");
-// if (warningMessage === true) {
-//     alert = ("Дякую за підтвердження!")
-// }
-// else {
-//     alert = ("Дію відмінено!")
-// } ;
-
-
-// const warningMessage = alert("Дія небезпечна, потрібне підтвердження");
-// const agreeAlert = confirm("Підтвердіть дію");
-// if (agreeAlert === true) {
-//     alert = ("Дякую за підтвердження!")
-// }
-// else {
-//     alert = ("Дію відмінено!")
-// };
