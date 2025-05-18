@@ -4,7 +4,7 @@ const logItems = function(arr) {
   }
 }
 
-logItems('Mango', 'Poly', 'Ajax')
+// logItems('Mango', 'Poly', 'Ajax')
 
 
 const calculateEngravingPrice = function (message, pricePerWord) {
@@ -12,5 +12,13 @@ const calculateEngravingPrice = function (message, pricePerWord) {
   price = messageSplit.length * pricePerWord
   return price
 }
-console.log(calculateEngravingPrice('Hello', 5))
+// console.log(calculateEngravingPrice('Hello', 5))
 
+const findLongestWord = function (string) {
+  for (let i = 0; i < string.length; i += 1) {
+    return string
+  }
+}
+console.log(findLongestWord());
+
+logItems("Mango", "Lime", "Apples")

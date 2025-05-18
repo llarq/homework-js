@@ -40,14 +40,14 @@
 // }
 
 
-const arr5 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let maxNum = arr5[1]
-for (i = 0; i <= arr5.length - 1; i += 1) {
-  if (arr5[i] > maxNum) {
-    maxNum = arr5[i]
-  }
-}
-console.log(maxNum)
+// const arr5 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let maxNum = arr5[1]
+// for (i = 0; i <= arr5.length - 1; i += 1) {
+//   if (arr5[i] > maxNum) {
+//     maxNum = arr5[i]
+//   }
+// }
+// console.log(maxNum)
 
 // const arr6 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // for (i = 0; i <= arr6.length - 1; i += 1) {
