@@ -28,5 +28,7 @@ const enterTextInput = document.querySelector("#name-input")
 const changeTextOutput = document.querySelector("#name-output")
 
 const textChange = () => {
-  
+  changeTextOutput.textContent = enterTextInput.value
 }
+
+enterTextInput.addEventListener('click', textChange)
